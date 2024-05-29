@@ -7,9 +7,6 @@
         function loadInstantChat(){
             var ICLoader = new RescueInstantChatLoader();
             ICLoader.ICContainer = "ICContainer";
-            ICLoader.HostedCSS = "https://example.org/InstantChat.css";
-            ICLoader.HostedLanguagesForChatOnlyMode = "https://example.org/LanguagesForChatOnlyMode.js";
-            ICLoader.HostedLanguagesForAppletMode = "https://example.org/LanguagesForAppletMode.js";
             ICLoader.PrivateCode = document.getElementById("Code").value;
             ICLoader.Tracking0 = ""; /* optional */
             ICLoader.Language = ""; /* optional */
